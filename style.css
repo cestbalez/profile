@@ -1,0 +1,113 @@
+body {
+  background-color: #536B78;
+  font-family: 'Open Sans', sans-serif;
+  color: Grey;
+  line-height: 1.1;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #404040;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+#my-description {
+  padding-bottom: 15px;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.album-description {
+  padding: 0px 20px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+#avatar {
+  width: 200px;
+  display: block;
+}
+
+.fab, .fas {
+  font-size: 40px;
+}
+
+.btn-dark {
+  color: white;
+  padding: 10px 15px;
+  background-color: #536B78;
+  border-radius: 4px;
+}
+
+a {
+  color: Gray;
+  text-decoration: none;
+}
+
+a:hover {
+  color: DarkGray;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  padding-left: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.container {
+  width: 800px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  margin: 10px 0;
+  padding: 20px;
+  background-color: #EEE5E9;
+  border-radius: 6px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2)
+}
