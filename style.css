@@ -111,7 +111,7 @@ li {
 }
 @media (max-width: 720px) {
   .container {
-    width: 500px;
+    width: 600px;
   }
   .card img {
   width: 250px;
@@ -119,8 +119,9 @@ li {
 }
 @media (max-width: 540px) {
   .container {
-    width: 300px;
+    width: 400px;
   }
+
   .card img {
   width: 180px;
 }
